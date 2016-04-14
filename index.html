@@ -2,10 +2,24 @@
 <html>
 <head>
 	<title></title>
+	<style>
+
+		#map {
+			height: 500px;
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+	</style>
 </head>
 <body>
 
-<script src="js/google-maps.js"></script>
+<div id="map"></div>
 
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXezzYKcz40DjlgjtjHpoZ2K63N64SeRo&callback=initMap"
+    async defer></script>
+
+    <script src="js/google-maps.js"></script>
 </body>
 </html>
